@@ -1,4 +1,14 @@
 'use strict';
+
+// Soal 1
+const soal1 = '5' - 2; // 3
+const soal2 = '5' + 2; // 52 (string)
+const soal3 = true + false; // 1 (true)
+const soal4 = 10 / '2'; // 5 (number)
+const soal5 = '10' == 10; // true
+
+console.log(soal1, soal2, soal3, soal4, soal5);
+
 // soal 2
 
 let x = 10;
@@ -21,21 +31,10 @@ let isLessOrEqual = b <= y;
 // soal 3
 
 let age = 19;
-let isStudent = true;
+let isStudent = false;
 
-if (age <= 18 || !isStudent) {
-  // tanda seru (!) mengembalikan nilai true menjadi false (sebalik nya jika false menjadi true)
-  console.log('Remaja');
-} else {
+if (age > 18 && !isStudent) {
   console.log('Dewasa');
-} // ini kodingan OR, bagaimana jika menggunakan AND? dan diawal itu remaja
-
-let i = 0;
-while (i < 3) {
-  // console.log(i);
-  i++;
-}
-
-for (let i = 0; i <= 5; i++) {
-  console.log(i);
+} else if (age <= 18 || isStudent) {
+  console.log('Remaja');
 }
