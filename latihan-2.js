@@ -1,6 +1,7 @@
 'use strict';
 
-// Soal 1
+// Question 1
+
 const soal1 = '5' - 2; // 3
 const soal2 = '5' + 2; // 52 (string)
 const soal3 = true + false; // 1 (true)
@@ -9,7 +10,7 @@ const soal5 = '10' == 10; // true
 
 console.log(soal1, soal2, soal3, soal4, soal5);
 
-// soal 2
+// Question 2
 
 let x = 10;
 let y = 8;
@@ -28,7 +29,7 @@ let isLessOrEqual = b <= y;
 // console.log(sum, difference, product, quotient);
 // console.log(isEqual, isGreater, isLessOrEqual);
 
-// soal 3
+// Question 3
 
 let age = 19;
 let isStudent = false;
